@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/cbugtai/module_6_part3-transactions:ff1b899dad01b37386d79c36777e8dd94294ef38
+          image: ghcr.io/cbugtai/module_6_part3-transactions:912803147bdc6149cbaee49a6799a6d0e86b5283
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
